@@ -1,0 +1,4 @@
+
+# Voice spoof Detection Using CNN and LSTM.
+
+This project focuses on detecting audio spoofing attacks using deep learning techniques on the ASVspoof 2019 dataset. The system performs waveform visualization, STFT, spectrogram analysis, MFCC extraction, and dataset preprocessing by balancing and organizing audio files into labeled folders. Two models are implemented: an LSTM-based classifier for temporal audio features and a Hybrid CNN-LSTM model that first extracts spatial features using convolutional layers and then learns temporal dependencies using LSTM units. Both models are evaluated using accuracy curves, loss curves, classification reports, and confusion matrices. The project also includes an end-to-end inference pipeline that predicts whether a given audio sample is spoof or bonafide using the trained hybrid model.
